@@ -125,4 +125,4 @@ PUT /mensagens/{id}
 
 DELETE /mensagens/{id}
 
-![Descrição da Imagem](src/main/resources/images/Capturadetela2025-10-02 214940.png)
+![Descrição da Imagem](src/main/resources/images/Capturadetela2025-10-02%214940.png)
