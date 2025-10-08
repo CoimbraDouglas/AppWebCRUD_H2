@@ -24,39 +24,43 @@ O sistema expõe uma **API REST** com operações de **criação, leitura, atual
    ```bash
    git clone https://github.com/SEU_USUARIO/SEU_REPOSITORIO.git
    cd SEU_REPOSITORIO
+   ```
 Compile e rode a aplicação:
 
-bash
-Copiar código
+```bash
+
 ./mvnw spring-boot:run
+```
 ou
 
-bash
-Copiar código
+```bash
+
 mvn spring-boot:run
+```
 💡 Alternativamente, você pode rodar a aplicação direto pela sua IDE (IntelliJ, Eclipse, VS Code) executando a classe principal marcada com @SpringBootApplication.
 
 Quando o servidor iniciar, acesse no navegador ou Postman:
 
 arduino
-Copiar código
+
 http://localhost:8080
 📡 Endpoints da API
 ➕ Criar Mensagem
 POST /mensagens
 
 json
-Copiar código
+```bash
 {
   "texto": "Minha primeira mensagem"
 }
+```
 📋 Listar Todas as Mensagens
 GET /mensagens
 
 Resposta (exemplo):
 
 json
-Copiar código
+```bash
 [
   {
     "id": 1,
@@ -67,14 +71,16 @@ Copiar código
     "texto": "Outra mensagem"
   }
 ]
+```
 🔍 Buscar Mensagem por ID
 GET /mensagens/{id}
 
 Exemplo:
 
-bash
-Copiar código
+```bash
+
 GET /mensagens/1
+```
 Resposta:
 
 json
