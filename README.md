@@ -84,22 +84,26 @@ GET /mensagens/1
 Resposta:
 
 json
-Copiar código
+```bash
 {
   "id": 1,
   "texto": "Minha primeira mensagem"
 }
+```
 ✏️ Atualizar Mensagem
 PUT /mensagens/{id}
 
 json
-Copiar código
+
+```bash
 {
   "texto": "Mensagem atualizada"
 }
+```
 ❌ Deletar Mensagem
+```bash
 DELETE /mensagens/{id}
-
+```
 🗄️ Banco de Dados H2
 A aplicação utiliza o banco H2 em memória.
 Após rodar a aplicação, você pode acessar o console em:
@@ -131,4 +135,4 @@ PUT /mensagens/{id}
 
 DELETE /mensagens/{id}
 
-![Descrição da Imagem](src/main/resources/images/Capturadetela2025-10-02%214940.png)
+![Descrição da Imagem](src/main/resources/images/Capturadetela214940.png)
