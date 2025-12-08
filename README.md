@@ -1,6 +1,7 @@
 # 📝 Projeto: CRUD com Spring Boot MVC, Lista em Memória e H2 + JPA  
 
-## 📌 Descrição  
+## 📌 Descrição
+
 Este projeto é um **CRUD de Mensagens** desenvolvido com **Spring Boot**, aplicando o padrão arquitetural **MVC (Model-View-Controller)**.  
 Inicialmente, as mensagens são armazenadas em uma lista em memória e, em seguida, os dados passam a ser persistidos em um **banco de dados H2** utilizando **Spring Data JPA**.  
 
