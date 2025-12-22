@@ -2,8 +2,8 @@
 
 ## 📌 Descrição
 
-Este projeto é um **CRUD de Mensagens** desenvolvido com **Spring Boot**, aplicando o padrão arquitetural **MVC (Model-View-Controller)**.  
-Inicialmente, as mensagens são armazenadas em uma lista em memória e, em seguida, os dados passam a ser persistidos em um **banco de dados H2** utilizando **Spring Data JPA**.  
+Este projeto é um **CRUD de Mensagens** desenvolvido com *Spring Boot*, aplicando o padrão arquitetural *MVC (Model-View-Controller)*.  
+Inicialmente, as mensagens são armazenadas em uma lista em memória e, em seguida, os dados passam a ser persistidos em um **banco de dados H2** utilizando *Spring Data JPA*.  
 
 O sistema expõe uma **API REST** com operações de **criação, leitura, atualização e exclusão** de mensagens.  
 
@@ -52,7 +52,7 @@ http://localhost:8080
 📡 Endpoints da API
 ➕ Criar Mensagem
 
-POST /mensagens
+* POST /mensagens
 
 ```
 {
@@ -61,7 +61,8 @@ POST /mensagens
 ```
 
 📋 Listar Todas as Mensagens
-GET /mensagens
+
+* GET /mensagens
 
 Resposta (exemplo):
 
@@ -80,15 +81,13 @@ Resposta (exemplo):
 
 🔍 Buscar Mensagem por ID
 
-```
-GET /mensagens/{id}
-```
+* GET /mensagens/{id}
 
 Exemplo:
 
-```
-GET /mensagens/1
-```
+
+* GET /mensagens/1
+
 
 Resposta:
 
@@ -101,9 +100,7 @@ Resposta:
 
 ✏️ Atualizar Mensagem
 
-```
-PUT /mensagens/{id}
-```
+* PUT /mensagens/{id}
 
 ```
 {
@@ -113,9 +110,7 @@ PUT /mensagens/{id}
 
 ❌ Deletar Mensagem
 
-```
-DELETE /mensagens/{id}
-```
+* DELETE /mensagens/{id}
 
 ---
 
@@ -154,12 +149,12 @@ Abra o **Postman**.
 
 Teste os seguintes endpoints na URL base http://localhost:8080/mensagens:
 
-POST /mensagens
+* POST /mensagens
 
-GET /mensagens
+* GET /mensagens
 
-GET /mensagens/{id}
+* GET /mensagens/{id}
 
-PUT /mensagens/{id}
+* PUT /mensagens/{id}
 
-DELETE /mensagens/{id}
+* DELETE /mensagens/{id}
