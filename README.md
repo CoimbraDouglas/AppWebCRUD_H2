@@ -1,6 +1,6 @@
-# 📝 Projeto: CRUD com Spring Boot MVC, Lista em Memória e H2 + JPA  
+# 📝 Projeto: CRUD com Spring Boot MVC, Lista em Memória e H2 + JPA
 
-## 📌 Descrição
+## 📌 Descrição 
 
 Este projeto é um **CRUD de Mensagens** desenvolvido com *Spring Boot*, aplicando o padrão arquitetural *MVC (Model-View-Controller)*.  
 Inicialmente, as mensagens são armazenadas em uma lista em memória e, em seguida, os dados passam a ser persistidos em um **banco de dados H2** utilizando *Spring Data JPA*.  
@@ -49,7 +49,8 @@ http://localhost:8080
 
 ---
 
-📡 Endpoints da API
+## 📡 Endpoints da API
+
 ➕ Criar Mensagem
 
 * POST /mensagens
@@ -114,7 +115,7 @@ Resposta:
 
 ---
 
-🗄️ Banco de Dados H2
+## 🗄️ Banco de Dados H2
 
 A aplicação utiliza o banco H2 em memória.
 Após rodar a aplicação, você pode acessar o console em:
@@ -131,13 +132,13 @@ Password: (vazio, ou mude em application.properties)
 
 ---
 
-📸 Exemplo de Execução
+## 📸 Exemplo de Execução
 
 ![Descrição da Imagem](src/main/resources/images/Capturadetela214940.png)
 
 ---
 
-✅ Testes com Postman/Insomnia
+## ✅ Testes com Postman/Insomnia
 
 Certifique-se de que a aplicação está rodando
 
