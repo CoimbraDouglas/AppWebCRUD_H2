@@ -39,7 +39,7 @@ ou
 mvn spring-boot:run
 ```
 
-💡 Alternativamente, você pode rodar a aplicação direto pela sua IDE (IntelliJ, Eclipse, VS Code) executando a classe principal marcada com @SpringBootApplication.
+💡 **Alternativamente**, você pode rodar a aplicação direto pela sua IDE (IntelliJ, Eclipse, VS Code) executando a classe principal marcada com **@SpringBootApplication**.
 
 Quando o servidor iniciar, acesse no navegador ou Postman:
 
@@ -51,7 +51,7 @@ http://localhost:8080
 
 ## 📡 Endpoints da API
 
-➕ Criar Mensagem
+#### ➕ Criar Mensagem
 
 * POST /mensagens
 
@@ -61,7 +61,7 @@ http://localhost:8080
 }
 ```
 
-📋 Listar Todas as Mensagens
+#### 📋 Listar Todas as Mensagens
 
 * GET /mensagens
 
@@ -80,7 +80,7 @@ Resposta (exemplo):
 ]
 ```
 
-🔍 Buscar Mensagem por ID
+#### 🔍 Buscar Mensagem por ID
 
 * GET /mensagens/{id}
 
@@ -99,7 +99,7 @@ Resposta:
 }
 ```
 
-✏️ Atualizar Mensagem
+#### ✏️ Atualizar Mensagem
 
 * PUT /mensagens/{id}
 
@@ -109,7 +109,7 @@ Resposta:
 }
 ```
 
-❌ Deletar Mensagem
+#### ❌ Deletar Mensagem
 
 * DELETE /mensagens/{id}
 
