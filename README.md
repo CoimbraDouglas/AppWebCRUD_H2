@@ -90,7 +90,7 @@ Exemplo:
 * GET /mensagens/1
 
 
-Resposta:
+- Resposta:
 
 ```
 {
